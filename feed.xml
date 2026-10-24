@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gggのポッドキャスト</title>
+    <link>https://podcast.0g0.xyz/</link>
+    <atom:link href="https://podcast.0g0.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <description>gggのポッドキャストのフィードです。現在配信中の番組「神椿観測室」：KAMITSUBAKI STUDIOの「今」を観測する、ファンのためのポッドキャスト。レーベルの最新動向からアーティスト特集まで、ファン目線で深掘りしてお届けします。ホスト：リン（進行）＆カイ（聞き手）。ファンによる非公式ポッドキャストです。</description>
+    <language>ja</language>
+    <lastBuildDate>Sun, 25 Oct 2026 05:07:00 +0900</lastBuildDate>
+    <itunes:author>ggg</itunes:author>
+    <itunes:category text="Music" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    <item>
+      <title>神椿観測室 #2 幸祜特集</title>
+      <link>https://podcast.0g0.xyz/#ep2</link>
+      <guid isPermaLink="false">kamitsubaki-podcast-ep2</guid>
+      <pubDate>Sun, 25 Oct 2026 05:07:00 +0900</pubDate>
+      <description>今回は単独特集。2026年10月25日に活動6周年を迎えた幸祜（KOKO）を、デビューから最新ワンマンまで振り返ります。2020年10月25日のデビュー、1stワンマン「Player」、1stアルバム「prayer」、V.W.Pとしての顔、そして4thワンマン「PATHFINDER」（2026年12月13日）へ。</description>
+      <enclosure url="https://podcast.0g0.xyz/episodes/ep2.mp3" length="2960293" type="audio/mpeg" />
+      <itunes:duration>6:10</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+
+    <item>
+      <title>神椿観測室 #1 神椿の現在地、二千二十六年秋</title>
+      <link>https://podcast.0g0.xyz/#ep1</link>
+      <guid isPermaLink="false">kamitsubaki-podcast-ep1</guid>
+      <pubDate>Sun, 25 Oct 2026 04:17:00 +0900</pubDate>
+      <description>シリーズ第1回。2026年秋、KAMITSUBAKI STUDIOはいまどこにいるのか。V.W.PのINTERVAL、花譜のメジャー展開、幸祜の6周年と「PATHFINDER」、7周年ポップアップストア、アニメフェアとボードゲームまで、レーベルの現在地を概観します。</description>
+      <enclosure url="https://podcast.0g0.xyz/episodes/ep1.mp3" length="1557925" type="audio/mpeg" />
+      <itunes:duration>3:14</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+  </channel>
+</rss>

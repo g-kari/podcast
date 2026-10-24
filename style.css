@@ -1,0 +1,71 @@
+:root {
+  --bg: #101014;
+  --panel: #1a1a21;
+  --text: #eceaf2;
+  --muted: #a7a3b8;
+  --accent: #d84f6a;
+  --line: #2c2c38;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+  line-height: 1.8;
+}
+.site-header {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 20px 8px;
+  text-align: center;
+}
+.kicker {
+  color: var(--accent);
+  letter-spacing: 0.25em;
+  font-size: 0.75rem;
+  margin: 0 0 8px;
+}
+.site-header h1 {
+  font-size: 2.6rem;
+  margin: 0 0 12px;
+  letter-spacing: 0.12em;
+}
+.tagline { color: var(--muted); margin: 0 auto 8px; max-width: 600px; }
+.hosts { color: var(--muted); font-size: 0.9rem; margin: 0 0 16px; }
+.rss-link {
+  display: inline-block;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  border-radius: 999px;
+  padding: 4px 18px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.rss-link:hover { background: var(--accent); color: #fff; }
+main { max-width: 760px; margin: 0 auto; padding: 24px 20px 40px; }
+.section-title { font-size: 1.5rem; border-bottom: 1px solid var(--line); padding-bottom: 8px; }
+.show-desc { color: var(--muted); margin: 12px 0 4px; }
+.episode {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 24px;
+  margin: 20px 0;
+}
+.ep-meta { color: var(--muted); font-size: 0.85rem; margin: 0 0 4px; }
+.episode h3 { margin: 0 0 8px; font-size: 1.35rem; }
+.ep-desc { margin: 0 0 16px; }
+.episode audio { width: 100%; margin: 0 0 8px; }
+.notes { color: var(--muted); padding-left: 1.2em; margin: 12px 0; }
+.notes li { margin: 4px 0; }
+.ep-download a { color: var(--accent); font-size: 0.9rem; }
+.site-footer {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 20px 48px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  text-align: center;
+}
+.site-footer a { color: var(--accent); }
