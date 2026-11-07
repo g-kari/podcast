@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate feed.xml (well-formed RSS)
+        run: |
+          python3 - <<'EOF'
+          import xml.etree.ElementTree as ET
+          tree = ET.parse('feed.xml')
+          root = tree.getroot()
+          assert root.tag == 'rss', 'unexpected root element: %s' % root.tag
+          channel = root.find('channel')
+          assert channel is not None, 'feed.xml has no <channel>'
+          assert channel.find('title') is not None, 'channel has no <title>'
+          print('feed.xml OK: well-formed rss/channel structure')
+          EOF
+
+      - name: Validate index.html
+        run: |
+          test -f index.html
+          grep -qi '<title>' index.html
+          grep -qi '</title>' index.html
+
+      - name: Validate style.css
+        run: |
+          test -s style.css
